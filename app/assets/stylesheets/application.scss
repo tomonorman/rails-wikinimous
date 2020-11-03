@@ -1,3 +1,11 @@
 @import "bootstrap/scss/bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+a {
+  color: rgb(179,135,179);
+}
+
+a:hover {
+  color: rgb(210, 1, 80);
+}

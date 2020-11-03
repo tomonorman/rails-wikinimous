@@ -1,0 +1,9 @@
+  <div class="form-group">
+    <%= form_for @article do |f|  %>
+      <%= f.label :title %>
+      <%= f.text_field :title, class: "form-control mb-2" %>
+      <%= f.label :content %>
+      <%= f.text_area :content, class: "form-control" %>
+      <%= f.submit class: "btn btn-warning mt-2" %>
+    <% end %>
+  </div>
